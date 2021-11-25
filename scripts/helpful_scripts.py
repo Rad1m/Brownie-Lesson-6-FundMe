@@ -1,6 +1,10 @@
 from brownie import network, config, accounts, MockV3Aggregator
 from web3 import Web3
 
+##########################################################################################
+#### IF THE CONTRACT IS NOT RUNNING, DELETE GANACHE 1332 FOLDER IN /BUILD/DEPLOYMENTS ####
+##########################################################################################
+
 FORKED_LOCAL_ENVIRONMENTS = ["mainnet-fork", "mainnet-fork-dev"]
 LOCAL_BLOCKCHAIN_ENVIRONMENTS = ["development", "ganache-local"]
 

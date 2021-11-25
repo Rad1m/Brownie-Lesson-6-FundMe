@@ -5,6 +5,10 @@ from scripts.helpful_scripts import (
     LOCAL_BLOCKCHAIN_ENVIRONMENTS,
 )
 
+##########################################################################################
+#### IF THE CONTRACT IS NOT RUNNING, DELETE GANACHE 1332 FOLDER IN /BUILD/DEPLOYMENTS ####
+##########################################################################################
+
 
 def deploy_fund_me():
     account = get_account()
