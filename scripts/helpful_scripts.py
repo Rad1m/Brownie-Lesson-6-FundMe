@@ -1,9 +1,26 @@
 from brownie import network, config, accounts, MockV3Aggregator
 from web3 import Web3
 
+
 ##########################################################################################
 #### IF THE CONTRACT IS NOT RUNNING, DELETE GANACHE 1332 FOLDER IN /BUILD/DEPLOYMENTS ####
 ##########################################################################################
+
+##################################################
+### THIS IS TO PRINT COLORFUL TEXT IN TERMINAL ###
+class bcolors:
+    HEADER = "\033[95m"
+    OKBLUE = "\033[94m"
+    OKCYAN = "\033[96m"
+    OKGREEN = "\033[92m"
+    WARNING = "\033[93m"
+    FAIL = "\033[91m"
+    ENDC = "\033[0m"
+    BOLD = "\033[1m"
+    UNDERLINE = "\033[4m"
+
+
+############## END OF COLORS ####################
 
 FORKED_LOCAL_ENVIRONMENTS = ["mainnet-fork", "mainnet-fork-dev"]
 LOCAL_BLOCKCHAIN_ENVIRONMENTS = ["development", "ganache-local"]
